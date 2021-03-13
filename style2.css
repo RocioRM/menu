@@ -1,0 +1,55 @@
+body{
+	background-color: #E6CD9C;
+
+	background: 
+		linear-gradient(
+				rgba(0,0,0,50%),
+				rgba(0,0,0,30%),
+				rgba(0,0,0,20%),
+				rgba(0,0,0,0%)
+			) no-repeat,
+		url(img/luz.jpg);
+	
+	background-size: 100%;
+}
+
+h1{
+	background-color: #EBCDA0;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Sofia;
+	font-size: 30px;
+
+}
+
+h2{
+	font-family: Amiko;
+}
+
+li{
+	font-family: Barlow Condensed;
+	font-size: 140%;
+}
+
+p{
+	font-family: Barlow Condensed;
+	font-size: 115%;
+}
+
+a{
+	
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	border: 2px solid white;
+  	padding: 10px;
+  	border-radius: 50px 20px;
+}
+
+img{
+	height: 220px;
+	width: 25%;
+}
